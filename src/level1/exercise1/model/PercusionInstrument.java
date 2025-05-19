@@ -1,4 +1,4 @@
-package Lvl1.Exercise1.model;
+package level1.exercise1.model;
 
 public class PercusionInstrument extends Instrument {
     static {
@@ -10,7 +10,11 @@ public class PercusionInstrument extends Instrument {
     }
     @Override
     public void play() {
-        System.out.println("Playing Percusion instrument");
+        System.out.println("Playing Percusion instrument" + ", this its a " + this.getName() + ", a have a cost of " + this.getPrice() + " Dollars");
     }
 
+    @Override
+    public String toString() {
+        return "PercusionInstrument{}";
+    }
 }

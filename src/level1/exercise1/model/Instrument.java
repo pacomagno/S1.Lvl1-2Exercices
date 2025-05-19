@@ -1,4 +1,4 @@
-package Lvl1.Exercise1.model;
+package level1.exercise1.model;
 
 public abstract class Instrument {
 
@@ -29,4 +29,12 @@ public abstract class Instrument {
     }
 
     public abstract void play();
+
+    @Override
+    public String toString() {
+        return "Instrument{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                '}';
+    }
 }

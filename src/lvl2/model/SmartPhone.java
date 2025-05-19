@@ -7,10 +7,10 @@ public class SmartPhone extends Phone {
     }
 
     public void takePicture() {
-        System.out.println("Taking a picture");
+        System.out.println("The " + getBrand() + " " + getModel() + " its taking a picture");
     }
 
     public void alarm() {
-        System.out.println("Alarm is Sounding");
+        System.out.println("The " + getBrand() + "" + getModel() + " alarm is Sounding");
     }
 }

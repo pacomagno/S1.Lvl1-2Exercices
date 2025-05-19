@@ -1,9 +1,9 @@
-package Lvl1.Exercise1.app;
+package level1.exercise1.application;
 
-import Lvl1.Exercise1.model.Instrument;
-import Lvl1.Exercise1.model.PercusionInstrument;
-import Lvl1.Exercise1.model.StringInstrument;
-import Lvl1.Exercise1.model.WindInstrument;
+import level1.exercise1.model.Instrument;
+import level1.exercise1.model.PercusionInstrument;
+import level1.exercise1.model.StringInstrument;
+import level1.exercise1.model.WindInstrument;
 
 public class Main {
     public static void main(String[] args) {
