@@ -1,6 +1,6 @@
-package lvl2.application;
+package level2.application;
 
-import lvl2.model.SmartPhone;
+import level2.model.SmartPhone;
 
 public class Main {
     public static void main(String[] args) {

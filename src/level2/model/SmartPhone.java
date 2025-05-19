@@ -1,4 +1,4 @@
-package lvl2.model;
+package level2.model;
 
 public class SmartPhone extends Phone {
 
